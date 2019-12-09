@@ -1,0 +1,8 @@
+F:\MyKTV\MyKTV\MyKTV_Tools\bin\Debug\MyKTV_Tools.dll
+F:\MyKTV\MyKTV\MyKTV_Tools\bin\Debug\MyKTV_Tools.pdb
+F:\MyKTV\MyKTV\MyKTV_Tools\obj\Debug\MyKTV_Tools.dll
+F:\MyKTV\MyKTV\MyKTV_Tools\obj\Debug\MyKTV_Tools.pdb
+F:\MyKTV\MyKTV\MyKTV_Tools\obj\Debug\Interop.MediaPlayer.dll
+F:\MyKTV\MyKTV\MyKTV_Tools\obj\Debug\Interop.WMPLib.dll
+F:\MyKTV\MyKTV\MyKTV_Tools\obj\Debug\MyKTV_Tools.csproj.ResolveComReference.cache
+F:\MyKTV\MyKTV\MyKTV_Tools\obj\Debug\MyKTV_Tools.csprojAssemblyReference.cache

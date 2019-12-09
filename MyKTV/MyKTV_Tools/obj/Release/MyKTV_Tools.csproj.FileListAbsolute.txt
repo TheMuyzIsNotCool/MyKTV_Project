@@ -1,0 +1,8 @@
+F:\MyKTV\MyKTV\MyKTV_Tools\bin\Release\MyKTV_Tools.dll
+F:\MyKTV\MyKTV\MyKTV_Tools\bin\Release\MyKTV_Tools.pdb
+F:\MyKTV\MyKTV\MyKTV_Tools\obj\Release\MyKTV_Tools.csprojAssemblyReference.cache
+F:\MyKTV\MyKTV\MyKTV_Tools\obj\Release\Interop.MediaPlayer.dll
+F:\MyKTV\MyKTV\MyKTV_Tools\obj\Release\Interop.WMPLib.dll
+F:\MyKTV\MyKTV\MyKTV_Tools\obj\Release\MyKTV_Tools.csproj.ResolveComReference.cache
+F:\MyKTV\MyKTV\MyKTV_Tools\obj\Release\MyKTV_Tools.dll
+F:\MyKTV\MyKTV\MyKTV_Tools\obj\Release\MyKTV_Tools.pdb

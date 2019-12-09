@@ -1,0 +1,4 @@
+F:\MyKTV\MyKTV\MyKTV_Tools\bin\x86\Debug\MyKTV_Tools.dll
+F:\MyKTV\MyKTV\MyKTV_Tools\bin\x86\Debug\MyKTV_Tools.pdb
+F:\MyKTV\MyKTV\MyKTV_Tools\obj\x86\Debug\MyKTV_Tools.dll
+F:\MyKTV\MyKTV\MyKTV_Tools\obj\x86\Debug\MyKTV_Tools.pdb

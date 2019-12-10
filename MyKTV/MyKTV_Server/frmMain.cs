@@ -48,5 +48,11 @@ namespace MyKTV_Server
             frmAbout fa = new frmAbout();
             fa.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            frmAdminEdit fae = new frmAdminEdit();
+            fae.Show();
+        }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTypeSongList));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pbService = new System.Windows.Forms.PictureBox();
             this.pbNext = new System.Windows.Forms.PictureBox();
@@ -160,6 +161,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pbImage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmTypeSongList";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmTypeSongList";

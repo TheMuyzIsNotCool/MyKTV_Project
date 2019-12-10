@@ -20,9 +20,6 @@ namespace MyKTV_Client
 
         private void showsong()
         {
-            
-            //查询所有匹配的数字歌曲
-            Sound[] songs = new Sound[50];
             //根据Clicked降序显示
             string sqlstr = "select SongID,SongName,a.SingerID,SingerName,ClientCount,url from Song a,Singer b where a.SingerID = b.SingerID order by ClientCount desc";
             DBHelper.GetReader(sqlstr);
@@ -37,7 +34,7 @@ namespace MyKTV_Client
 
                 ListViewItem item = new ListViewItem(s.SongName);
                 item.SubItems.Add(s.SingerName);
-                lvShow.Items.Add(item);
+                listView1.Items.Add(item);
             }
             DBHelper.dr.Close();
             DBHelper.conn.Close();
@@ -65,9 +62,9 @@ namespace MyKTV_Client
 
         private void lvShow_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (this.lvShow.SelectedItems.Count > 0)
+            if (this.listView1.SelectedItems.Count > 0)
             {
-                string SongName = this.lvShow.SelectedItems[0].Text;
+                string SongName = this.listView1.SelectedItems[0].Text;
                 string sqlstr = "select b.SingerID,SongID,SongName,SingerName,Url from Song a, Singer b where a.SingerID = b.SingerID and SongName = '" + SongName +"'";
                 DBHelper.GetReader(sqlstr);
                 Sound s = null;

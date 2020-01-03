@@ -70,26 +70,31 @@ namespace MyKTV_Client
 
         private void frmaxWMP_Load(object sender, EventArgs e)
         {
-            string sqlStr = "select SongID,SongName,SingerName,Url,a.SingerID from Song a, Singer b where a.SingerID = b.SingerID ";
-            DBHelper.GetReader(sqlStr);
-            while (DBHelper.dr.Read())
+            if (song[0] == null)
             {
-
-                Sound s = new Sound();
-                s.SongID = (int)DBHelper.dr["SongID"];
-                s.SongName = DBHelper.dr["SongName"].ToString();
-                s.SingerName = DBHelper.dr["SingerName"].ToString();
-                s.SingerID = (int)DBHelper.dr["SingerID"];
-
-                s.Url = DBHelper.dr["Url"].ToString();
-
-                s.SongState = 0; //状态设置为未播放
-                    //将歌曲存入数组
-                song[index] = s;
-                index++;
+                return;
             }
-            DBHelper.dr.Close();
-            DBHelper.conn.Close();
+
+            //string sqlStr = "select SongID,SongName,SingerName,Url,a.SingerID from Song a, Singer b where a.SingerID = b.SingerID ";
+            //DBHelper.GetReader(sqlStr);
+            //while (DBHelper.dr.Read())
+            //{
+
+            //    Sound s = new Sound();
+            //    s.SongID = (int)DBHelper.dr["SongID"];
+            //    s.SongName = DBHelper.dr["SongName"].ToString();
+            //    s.SingerName = DBHelper.dr["SingerName"].ToString();
+            //    s.SingerID = (int)DBHelper.dr["SingerID"];
+
+            //    s.Url = DBHelper.dr["Url"].ToString();
+
+            //    s.SongState = 0; //状态设置为未播放
+            //        //将歌曲存入数组
+            //    song[index] = s;
+            //    index++;
+            //}
+            //DBHelper.dr.Close();
+            //DBHelper.conn.Close();
             //将要播放的歌曲索引改为第一首
             index = 0;
             //播放第一首歌
